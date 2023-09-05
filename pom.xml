@@ -8,11 +8,11 @@
 		<version>2.7.11</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.genus</groupId>
-	<artifactId>crud</artifactId>
+	<groupId>com.jonathaneduardo</groupId>
+	<artifactId>Springboot-apirest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>crud</name>
-	<description>Demo project for Spring Boot</description>
+	<name>Springboot-apirest</name>
+	<description>Api crud</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
@@ -55,6 +55,11 @@
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
 			<version>2.12.0</version>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-boot-starter</artifactId>
+			<version>3.0.0</version>
 		</dependency>
 	</dependencies>
 
